@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Inter'
+}
+button{
+    border: transparent;
+    background-color: transparent;
+}
+
+/* header */
+
+.header-container{
+    width: 100%;
+    height: 70px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1187px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-item:not(:last-child){
+    margin-right: 66px;
+}
+.btn-nav__item{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6E7275;
+    transition: all 0.2s ease-in-out;
+}
+.btn-nav__item:hover{
+    color: #0F9AFE;
+}
+
+/* Principal section */
+
+.principal-section{
+    width: 100%;
+    height: 640px;
+    background-color: #EFF8FF;
+}
+.block-presentation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1187px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.left-presentation{
+    margin-top: 187px;
+}
+.text-block{
+    width: 574px;
+    height: 180px;
+}
+.text-presentation{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #293145;
+}
+.block-btn{
+    width: 200px;
+    height: 56px;
+    margin-top: 50px;
+}
+.btn-principal{
+    width: 200px;
+    height: 56px;
+    background: #0F9AFE;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    padding: 16px 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-principal:hover{
+    background-color: #56b4f8;
+}
+
+/* Right presentation */
+.right-presentation{
+    width: 500px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+/* Second Section */
+
+.second-section{
+    width: 100%;
+    margin-top: 56px;
+}
+.block-how-works{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.title-how-works{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    color: #293145;
+}
+.how-works__list{
+    display: flex;
+    text-align: center;
+}
+.title-icon{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #293145;
+    margin: 30px 0px 15px 0px;
+}
+.description-icon{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #6E7275;
+}
+
+/* third section */
+.third-section{
+    width: 100%;
+    height: 475px;
+    margin-top: 70px;
+    background-color: #EFF8FF;
+}
+.block-download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1187px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.download-left{
+    width: 600px;
+}
+.title-download-section{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #293145;
+}
+.description-block{
+    width: 444px;
+    height: 78px;
+    margin: 20px 0px 20px 0px;
+}
+.description-download{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6E7275;
+}
+.block-btn__description{
+    width: 385px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-download{
+    cursor: pointer;
+}
+
+/* fourth section */
+.fourth-section{
+    margin-top: 70px;
+}
+.block-plans-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1187px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
