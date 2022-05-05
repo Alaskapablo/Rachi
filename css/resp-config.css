@@ -1,0 +1,111 @@
+@media (max-width: 767px){
+    /* Header */
+    .header-container{
+        width: 100%;
+        height: 100%;
+    }
+    /* dropdown nav */
+    .block-nav__list{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-nav__item{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-item:not(:last-child){
+        margin: 0px 0px 8px 0px;
+    }
+
+    /* First section */
+    .principal-section{
+        width: 100%;
+        height: 100%;
+        background-color: #EFF8FF;
+    }
+    .block-presentation{
+        display: flex;
+        justify-content: center;
+    }
+    .img-right-presentation{
+        display: none;
+    }
+    .text-block{
+        margin-top: 40px;
+    }
+    .text-presentation{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+        color: #293145;
+    }
+    .block-btn{
+        margin-top: 20px;
+    }
+    .btn-principal{
+        width: 150px;
+        height: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* second section */
+    .title-how-works{
+        font-size: 30px;
+    }
+    .how-works__item{
+        width: 200px;
+    }
+
+    /* section third */
+    .block-download{
+        display: block;
+    }
+    .download-right{
+        display: none;
+    }
+}
+
+@media (max-width: 570px){
+
+    /* second section */
+    .how-works__list{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .how-works__item{
+        width: 280px;
+    }
+    .how-works__item:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .how-works__item svg{
+        width: 78px;
+        height: 70px;
+    }
+    .title-icon{
+        font-size: 22px;
+        margin: 15px 0px 15px 0px;
+    }
+    .description-icon{
+        font-size: 18px;
+    }
+}

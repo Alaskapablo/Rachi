@@ -9,6 +9,11 @@ button{
     border: transparent;
     background-color: transparent;
 }
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+
+}
 
 /* header */
 
@@ -22,9 +27,13 @@ button{
     align-items: center;
     width: 100%;
     max-width: 1187px;
-    height: 70px;
+    min-height: 70px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 15px 20px;
+}
+.block-nav__list{
+    display: flex;
+    justify-content: end;
 }
 .nav-list{
     display: flex;
@@ -39,7 +48,7 @@ button{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    color: #6E7275;
+    color: #FFFFFF;
     transition: all 0.2s ease-in-out;
 }
 .btn-nav__item:hover{
@@ -56,6 +65,7 @@ button{
 .block-presentation{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 1187px;
     margin: 0 auto;
@@ -66,7 +76,6 @@ button{
 }
 .text-block{
     width: 574px;
-    height: 180px;
 }
 .text-presentation{
     font-family: 'Sora';
@@ -138,6 +147,7 @@ button{
 .how-works__list{
     display: flex;
     text-align: center;
+    padding: 0;
 }
 .title-icon{
     font-family: 'Sora';
